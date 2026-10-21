@@ -1,0 +1,35 @@
+# LAPD Police Car Identifier
+
+print("=== LAPD CAR ID ===\n")
+print("Voitures dispo: crown vic, charger, explorer, tahoe")
+print()
+
+voiture = input("Tape le nom de la voiture : ").lower()
+
+if voiture == "crown vic" or voiture == "crown victoria":
+    print("\nFord Crown Victoria Police Interceptor")
+    print("Années: 1992-2011")
+    print("Département: LAPD, NYPD, partout aux US")
+    print("Fun fact: La plus iconique, V8 4.6L")
+
+elif voiture == "charger":
+    print("\nDodge Charger Pursuit")
+    print("Années: 2006-aujourd'hui")
+    print("Département: LAPD, Highway Patrol")
+    print("Fun fact: V6 ou V8 HEMI 370hp")
+
+elif voiture == "explorer":
+    print("\nFord Explorer Police Interceptor Utility")
+    print("Années: 2012-aujourd'hui")
+    print("Département: LAPD (remplace le Crown Vic)")
+    print("Fun fact: C'est ce que LAPD utilise le plus maintenant")
+
+elif voiture == "tahoe":
+    print("\nChevy Tahoe PPV")
+    print("Années: 1997-aujourd'hui")
+    print("Département: LAPD, Sheriff")
+    print("Fun fact: Pour les superviseurs et K9")
+
+else:
+    print(f"\nJe connais pas '{voiture}' pour l'instant")
+    print("Essaie: crown vic, charger, explorer, tahoe")
